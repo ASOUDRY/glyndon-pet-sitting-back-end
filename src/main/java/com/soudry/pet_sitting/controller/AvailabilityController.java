@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/availability")
+@RequestMapping("/api/availability")
 @CrossOrigin(origins = "http://localhost:5173")
 public class AvailabilityController {
 
