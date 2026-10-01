@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/availability")
-@CrossOrigin(origins = "http://localhost:4173")
+@CrossOrigin(origins = "https://www.glyndonpetservices.com")
 public class AvailabilityController {
 
     private final AvailabilityService availabilityService;
